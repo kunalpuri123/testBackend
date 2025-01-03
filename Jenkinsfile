@@ -5,8 +5,8 @@ pipeline {
     }
 
     environment {
-        NODEJS_HOME = 'C:/Program Files/nodejs'  // Set the Node.js path
-        SONAR_SCANNER_PATH = 'D:/altered/sonar-scanner-6.2.1.4610-windows-x64/bin'
+        NODEJS_HOME = '/Users/kunalpuri/.nvm/versions/node/v22.9.0/bin/node'  // Set the Node.js path
+        SONAR_SCANNER_PATH = '/opt/homebrew/bin/sonar-scannern'
     }
 
     stages {
